@@ -147,8 +147,6 @@ p {
   color: #ff6b6b;
 }
 
-/* Boxes container */
-
 textarea {
   width: 200px;
   height: 50px;
@@ -502,10 +500,18 @@ textarea:focus {
   display: inline-block;
   height: 20px; /* Adjust height */
   margin-right: 8px; /* Adjust spacing */
-  background: url("C:\Users\revan\Desktop\USER\my-first-project\public\android-logo-svgrepo-com.svg")
-    center/contain no-repeat; /* Replace with your SVG path */
 }
-
+/* img {
+  width: 5%;
+  margin-left: 10%;
+}
+.amountlogo {
+  display: flex;
+  flex-direction: column;
+} */
+h2 {
+  margin-top: 5%;
+}
 .summarygpt {
   width: 100%;
   height: auto;

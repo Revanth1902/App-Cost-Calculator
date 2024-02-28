@@ -498,7 +498,7 @@ const Test = ({ handleSphere, totalSum }) => {
   // };
 
   const fetchData = async () => {
-    const apiKey = "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";
+    const apiKey = "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";
     const apiEndpoint =
       "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions";
 
@@ -807,7 +807,11 @@ const Test = ({ handleSphere, totalSum }) => {
               </div>
 
               <div className="amount">
-                <h3 className="logoforh3">Andriod App</h3>
+                <div className="amountlogo">
+                  <h3 className="logoforh3">Andriod App</h3>
+                  {/* <img src="/andriod.png" alt="Android" /> */}
+                </div>
+
                 <p>15 Designer Days (3 Weeks)</p>
                 <p>34 Developer Days (6.8 Weeks)</p>
 
